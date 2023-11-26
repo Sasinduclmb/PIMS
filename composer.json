@@ -1,0 +1,5 @@
+{
+    "require": {
+        "leafs/auth": "^2.1"
+    }
+}

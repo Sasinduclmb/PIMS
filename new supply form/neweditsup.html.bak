@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Supply Management</title>
+  <style type = "text/css">
+  *{
+  margin :0;
+  padding:0;
+  }
+  
+  body {
+  background-image :url(my.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family:'poppins',sans-serif;
+  margin-top:40px;
+  }
+  
+  .regform {
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  margin:auto;
+  color:#ffffff;
+  padding: 10px 0px 10px 0 px;
+  text-align:center;
+  border-radius: 15px 15px 0px 0px;
+  }
+  .main {
+  background-color:rgb(0,0,0,0.5);
+  width:800px;
+   margin:auto;
+   height:700px;
+   border-radius: 0px 0px 15px 15px;
+  }
+  form {
+  padding :10px;
+  }
+  .editField {
+  margin-left:25px;
+  margin-top:30px;
+  width:125px;
+  color:white;
+  font-size:18px;
+  font-weight:700;
+  
+  }
+   #name {
+  width:100%;
+  height:100px;
+  }
+ .NIC {
+   position:relative;
+  left :220px;
+  top:-37px;
+  line-height :40px;
+  width:280px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16px;
+  color:#555;
+
+  
+  }
+  button {
+  background-color:#7224db;
+  display:block;
+  margin:20px 220px 320px ;
+  text-align:center;
+  border-radius:12px;
+  border :2px solid #366473;
+  padding: 14px 110px;
+  outline:none;
+  color:white;
+  cursor:pointer;
+  transition :0.25px;
+  
+  }
+  button:hover{
+  background-color:#5390f5;
+  }
+  .previous{
+  background-color: #12e9ed;
+  color: black;
+  border-radius:12px;
+  border :2px solid #366473;
+  padding: 60px;
+  margin:-0.5px;
+ 
+}
+.footer{
+	height:20px;
+	background-color: #49E980;
+	text-align:center;
+	margin:20px 0px 0px 20px;
+	border-radius:12px;
+	border :2px solid #366473;
+	padding:14px 40px;
+	outline:none;
+	position: absolute;
+	bottom: -10px;
+	
+}
+.box {
+position :absolute;
+top:30%;
+left:45%;
+transform:translate(-50%,-50%);
+
+}
+.box select{
+background:#4458bb;
+color:#fff;
+padding:10px;
+width:250px;
+height:50px;
+border:none;
+font-size:16px;
+box-shadow:0 5px 25px rgba (0,0,0,.5);
+-webkit-appearance :button ;
+outline:none;
+
+}
+.box:before{
+position:absolute;
+content:'<ion-icon name="caret-down-outline"></ion-icon>
+';
+top:0;
+right:0;
+width:50px;
+height:50px;
+background:#007ce0; 
+}
+.box:hover:before{
+background:#0472ca;
+
+}
+
+  
+  </style>
+</head>
+
+<body>
+<div class = "regform"><h1>Edit Supply Details</h1> </div>
+<div class = "main">
+<form>
+<h2 class="editField"> NIC </h2>
+<input class= "NIC" type ="text" name= "NIC"><br>
+<h2 class="name"> Fields to EDIT </h2>
+<div class ="box">
+	<select >
+	<option>NIC</option>
+	<option>Name</option>
+	<option>Address</option>
+	<option>Phone Number</option>
+	<option>Med Type</option>
+	</select>
+</div>
+<button type ="submit"onclick="myFunction()"> Edit </button>
+	
+	<p id="demo"></p>
+
+	<script>
+	function myFunction() {
+		let text = "Are you sure to edit??";
+		if (confirm(text) == true) {
+		text = "successfully edited!!";
+			} else {
+		text = "not edited!!";
+	}
+	document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+<a style = "display: inline-block;padding: 8px 16px;text-align:center;"
+href="finalmenutmp.html" class="previous">  Previous</a>
+
+<div class="footer">
+© copyright - ALL RIGHTS RESERVED 2022.PIMS version 1.1 developed by
+ <a href ="#" style = "color:#0F762F; font-weight:bold;">Group No: 05</a></div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+

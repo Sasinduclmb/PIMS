@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Supplier Management - PIMS</title>
+ <style type = "text/css">
+*{
+  margin :0;
+  padding:0;
+  }
+  
+  body {
+  background-image :url(moreorder.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family:'poppins',sans-serif;
+  margin-top:40px;
+  }
+  .regform {
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  margin:auto;
+  color:#ffffff;
+  text-align:center;
+  border-radius: 15px 15px 15px 15px;
+  }
+  .top {
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  height:50px;
+  margin:50px;
+  border-radius: 15px 15px 15px 15px;
+  padding:40px;
+  font-weight:bold;
+ 
+  
+  }
+  .linkpage{
+  text-decoration: none;
+  font-size:45px;
+  color:#093A07;
+  }
+  .previous,.next{
+  background-color: #4AB55B;
+  color: black;
+  border-radius:12px;
+  
+  padding: 60px;
+  margin:-0.5px;
+ text-decoration:none;
+ margin:10px;
+}
+
+  
+   </style>
+</head>
+<body>
+<div class = "regform"><h2> Suppliers Management - More About Orders </h2></div>
+<br>
+<div class ="main">
+         <ul>
+			
+			
+			<div class= "top"><a href ="enterpage.html" class ="linkpage">Incoming Med Stocks - Orders </a>
+			
+			</div>
+			<div class= "top"><a href ="enterpage.html"class ="linkpage">Outgoing Med Stocks - Sales</a></div>
+		
+			
+	</ul>
+</div>
+<a style = "display: inline-block;padding: 8px 16px;text-align:center;"href="finalmenutmp.html" class="previous">  Previous</a>
+<a style = "display: inline-block;padding: 8px 16px;text-align:center;float:right " href="#" class="next">Next </a>
+<div class ="footer">
+<div style="background-color:#49E980;text-align:center;padding:10px; margin:30px 10px 40px 10px ">© copyright - ALL RIGHTS RESERVED 2022.PIMS version 1.1 developed by <a href ="#" style = "color:#0F762F; font-weight:bold; text-decoration:none">Group 05</a></div>
+</div >
+</body>
+</html>

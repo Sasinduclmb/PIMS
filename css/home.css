@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin :0;
+  padding :0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-family:sans-serif; 
+}
+
+div .top {
+  background-image: url('../img/pharma.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  height:310px;
+  background-size: cover;
+}
+
+.menu {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu a {
+  background-color: black;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.top {
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  font-size: 24px;
+  float: left;
+  width: 49.5%;
+  height: 250px;
+  margin: 0.25%;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.top a {
+	text-align:center;
+	color: black;
+	text-decoration: none;
+	font-weight: bold ;
+} 
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .menu, .left, .top {
+    width: 100%;
+  }
+}
